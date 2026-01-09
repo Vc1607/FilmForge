@@ -21,11 +21,14 @@ header {
   align-items: center;
   justify-content: center;
   text-align: center;
-  background: radial-gradient(circle at top, #1a1a1a, #000);
+  background:
+    radial-gradient(circle at center, rgba(255,255,255,0.08), transparent 40%),
+    radial-gradient(circle at top, #1a1a1a, #000);
 }
 h1 {
   font-size: 4rem;
   margin: 0;
+  text-shadow: 0 0 30px rgba(255,255,255,0.2);
 }
 p {
   max-width: 600px;
@@ -40,12 +43,12 @@ p {
   text-decoration: none;
   color: black;
   background: white;
-  padding: 12px 24px;
+  padding: 14px 28px;
   margin: 0 10px;
-  border-radius: 6px;
+  border-radius: 30px;
   font-weight: bold;
-}
-section {
+  box-shadow: 0 10px 30px rgba(255,255,255,0.15);
+}ction {
   padding: 4rem 2rem;
   text-align: center;
 }
