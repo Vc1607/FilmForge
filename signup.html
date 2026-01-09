@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Create Profile — FilmForge</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  margin:0;
+  background:#0b0b0b;
+  color:white;
+  font-family:system-ui;
+}
+nav {
+  background:black;
+  padding:15px;
+  text-align:center;
+}
+nav a {
+  color:white;
+  margin:0 15px;
+  text-decoration:none;
+}
+form {
+  max-width:500px;
+  margin:40px auto;
+  background:#141414;
+  padding:30px;
+  border-radius:10px;
+}
+input, select, textarea {
+  width:100%;
+  padding:10px;
+  margin:10px 0;
+  border-radius:5px;
+  border:none;
+}
+button {
+  width:100%;
+  padding:12px;
+  background:white;
+  color:black;
+  border:none;
+  font-weight:bold;
+  border-radius:6px;
+}
+</style>
+</head>
+<body>
+
+<nav>
+  <a href="index.html">FilmForge</a>
+  <a href="profiles.html">Browse Filmmakers</a>
+  <a href="signup.html">Create Profile</a>
+</nav>
+
+<h1 style="text-align:center;">Create Your FilmForge Profile</h1>
+
+<form>
+  <input type="text" placeholder="Full Name" required>
+  <select>
+    <option>Director</option>
+    <option>Actor</option>
+    <option>Editor</option>
+    <option>DOP</option>
+    <option>Writer</option>
+    <option>Music Composer</option>
+    <option>VFX Artist</option>
+  </select>
+  <input type="text" placeholder="City">
+  <input type="url" placeholder="Portfolio Link (YouTube, Vimeo, etc)">
+  <textarea placeholder="Short bio"></textarea>
+  <button>Create Profile</button>
+</form>
+
+</body>
+</html>
