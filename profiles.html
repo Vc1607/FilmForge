@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Browse Filmmakers — FilmForge</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  margin:0;
+  background:#0b0b0b;
+  color:white;
+  font-family:system-ui;
+}
+nav {
+  background:black;
+  padding:15px;
+  text-align:center;
+}
+nav a {
+  color:white;
+  margin:0 15px;
+  text-decoration:none;
+}
+.grid {
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+  gap:20px;
+  padding:40px;
+}
+.card {
+  background:#141414;
+  padding:20px;
+  border-radius:10px;
+}
+.role {
+  color:#888;
+}
+</style>
+</head>
+<body>
+
+<nav>
+  <a href="index.html">FilmForge</a>
+  <a href="profiles.html">Browse Filmmakers</a>
+  <a href="signup.html">Create Profile</a>
+</nav>
+
+<h1 style="text-align:center;">Browse Filmmakers</h1>
+
+<div class="grid">
+  <div class="card">
+    <h3>Alex Carter</h3>
+    <div class="role">Director — Mumbai</div>
+    <p>Short film and indie movie director.</p>
+  </div>
+
+  <div class="card">
+    <h3>Riya Sharma</h3>
+    <div class="role">Actor — Delhi</div>
+    <p>Theatre and screen actor.</p>
+  </div>
+
+  <div class="card">
+    <h3>Rahul Mehta</h3>
+    <div class="role">Editor — Hyderabad</div>
+    <p>Premiere Pro & DaVinci Resolve.</p>
+  </div>
+</div>
+
+</body>
+</html>
